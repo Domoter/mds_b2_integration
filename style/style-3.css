@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+h1, h2, h3, a{
+    font-family: 'Bodoni Moda', serif;
+}
+h1, h2 {
+    color: white;
+    margin-left: 10vw;
+}
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    margin: 0 0;
+}
+.header-principal {
+    background-color: #E58D00;
+    height: 45vh;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    margin-right: 10vw;
+}
+li {
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+}
+.trait-header {
+    margin-left: 10vw;
+    width: 10%;
+    border: 1px solid rgb(255, 255, 255);
+}
+#a-propos {
+    margin: 10vh 10vw 10vh 10vw;
+    display: flex;
+}
+.texte-a-propos {
+    width: 50%;
+}
+.case-a-propos {
+    width: 25%;
+    margin-left: 5vw;
+    margin-top: -220px;
+}
+.carre-a-propos {
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.trait-a-propos {
+    width: 25%;
+    border: 1px solid black;
+}
+.carre-a-propos .titre-a-propos, .trait-a-propos, .tiret-a-propos {
+    margin-left: 3vw;
+}
+#portfolio {
+    background-color: #E58D00;
+    color: white;
+}
+.div-titre-portfolio {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.titre-portfolio {
+    margin-top: 5vh;
+    margin-right: 32vw;
+    font-size: 22px;
+}
+.webdesign {
+    display: flex;
+}
+.titre-webdesign {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    font-size: 22px;
+}
+.img-portfolio-maquette {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    width: 80%;
+    height: 40vh;
+}
+.texte-webdesign {
+    margin: 12vh 10vw 0vh 2vw;
+    align-items: center;
+}
+.div-titre-photographie {
+    margin: 10vh 10vw 0vh 10vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.photographie {
+    background-color: #ce8614;
+}
+.titre-photographie {
+    margin-top: 5vh;
+    margin-right: 22vw;
+    font-size: 22px;
+}
+.photographie img {
+    margin-top: 5vh;
+    margin-left: 2vw;
+    flex-direction: row;
+    width: 30%;
+    height: 30%;
+}
+.texte-photographie {
+    margin: 5vh 10vw 0vh 10vw;
+    text-align: center;
+}
+.WorpressDevelopper {
+    display: flex;
+}
+.titre-WordpressDevelopper {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    font-size: 22px;
+}
+.img-eiabijoux {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    width: 80%;
+    height: 40vh;
+}
+.texte-eiabijoux {
+    margin: 17vh 10vw 0vh 2vw;
+    align-items: center;
+}
+.div-texte-WordpressDevelopper {
+    margin: 5vh 10vw 0vh 10vw;
+    text-align: center;
+}
+.bouton-contact {
+    margin-top: 5vh;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+}
+#contact {
+    background-color: #92B987;
+    margin-top: 5vh;
+}
+.titre-contact {
+    margin-left: 10vw;
+    font-size: 22px;
+}
+form {
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+.bouton-envoyer {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+}
+.texte-contact {
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+footer {
+    display: flex;
+    background-color: #92B987;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    font-size: 14px;
+}
